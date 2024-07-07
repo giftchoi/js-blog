@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import siteMetadata from '@/data/siteMetadata'
+import siteMetadata from '../../data/siteMetadata'
 
 const NaverWebMaster = () => {
   return (
