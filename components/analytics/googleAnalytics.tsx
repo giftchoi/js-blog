@@ -7,7 +7,10 @@ const GAScript = () => {
     <>
       <Head>
         {/* google search console 인증을 위함 */}
-        <meta name="google-site-verification" content="NpIRqYz7xi0J7XB5mxC0PF1IhBUl4DyfQMsB6d4022M" />
+        <meta
+          name="google-site-verification"
+          content="NpIRqYz7xi0J7XB5mxC0PF1IhBUl4DyfQMsB6d4022M"
+        />
       </Head>
       <Script
         strategy="lazyOnload"
