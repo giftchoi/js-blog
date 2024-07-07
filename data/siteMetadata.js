@@ -13,7 +13,7 @@ const siteMetadata = {
   image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/main-logo-no-bg.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'kkddgg1001@gmail.com',
+  email: 'giftchoi02@naver.com',
   github: 'https://github.com',
   x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
