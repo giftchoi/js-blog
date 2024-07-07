@@ -3,8 +3,7 @@ const siteMetadata = {
   title: 'wisegift blog | 일상 기록 블로그',
   author: 'jisun',
   headerTitle: 'wisegift blog',
-  description:
-    '반려견을 키우고 소소한 행복 일상을 기록하는 블로그',
+  description: '반려견을 키우고 소소한 행복 일상을 기록하는 블로그',
   language: 'ko-KR',
   theme: 'system', // system, dark or light
   siteUrl: 'https://wisegift-blog.vercel.app',
@@ -47,7 +46,7 @@ const siteMetadata = {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    naverWebMasterId: 'test', // naver web master verification code
+    naverWebMasterId: '99bf6b63fc684b491afb47afaed548ef3cb9e59e', // naver web master verification code
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
