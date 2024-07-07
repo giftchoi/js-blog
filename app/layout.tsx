@@ -10,7 +10,6 @@ import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
-import NaverWebMaster from '@/components/analytics/NaverWebMaster'
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -73,12 +72,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
-      <meta name="google-adsense-account" content="ca-pub-2038243209448310" />
+      <meta name="naver-site-verification" content="99bf6b63fc684b491afb47afaed548ef3cb9e59e" />
+      <meta name="google-site-verification" content="NpIRqYz7xi0J7XB5mxC0PF1IhBUl4DyfQMsB6d4022M" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
-          <NaverWebMaster />
           <SectionContainer>
             <div className="flex h-screen flex-col justify-between font-sans">
               <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
