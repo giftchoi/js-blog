@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/giftchoi/js-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpg',
-  socialBanner: '/static/images/main-logo-no-bg.png',
+  socialBanner: '/static/images/logo.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'giftchoi02@naver.com',
   github: 'https://github.com',
